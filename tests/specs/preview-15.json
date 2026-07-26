@@ -1,0 +1,20 @@
+[
+  {
+    "name": "15s Preview",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Select 15-second preview length"
+            }
+          }
+        ],
+        "send": {
+          "callback": "preview:15"
+        }
+      }
+    ]
+  }
+]
